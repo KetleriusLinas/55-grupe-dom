@@ -4,8 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Todo</title>
     <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/todo.css">
 </head>
 
 <body>
@@ -23,7 +24,23 @@
     </header>
 
     <main>
-        <h1>Todo</h1>
+        <h1>Task planner (0)</h1>
+
+        <form class="form">
+            <label for="task">Task</label>
+            <input id="task" placeholder="Your task" type="text" required>
+            <button type="submit">Add</button>
+        </form>
+
+        <div class="list">
+            <!-- <div class="item">
+                <div class="header">
+                    <div class="index">1</div>
+                    <button class="btn" type="button">Delete</button>
+                </div>
+                <div class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam voluptate sit, eius quo tempore neque totam similique reiciendis reprehenderit commodi natus quis illo soluta dolor ipsa architecto repellat blanditiis accusantium?</div>
+            </div> -->
+        </div>
     </main>
 
     <script src="../js/todo.js"></script>
