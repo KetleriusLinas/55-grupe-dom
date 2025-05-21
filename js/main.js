@@ -5,9 +5,10 @@
 
 // const pDOM = document.getElementsByTagName('p');
 // console.log(pDOM);
+import { header } from "./header.js";
+header(true);
 
-
-cconst mainDOM = document.getElementsByTagName('main');
+const mainDOM = document.getElementsByTagName('main');
 const h1MainDOM = mainDOM[0].getElementsByTagName('h1');
 const firstH1InMain = h1MainDOM[0];
 
