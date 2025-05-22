@@ -68,3 +68,4 @@ formDOM.addEventListener('submit', event => {
         contentDOM.classList.remove('form');
     });
 });
+
